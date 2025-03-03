@@ -69,3 +69,7 @@
     margin: 0;
   }
   
+  .header-image {
+    width: 150px;
+    border-radius: 50%;
+  }
