@@ -3,59 +3,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
+    color: #511b40;
+}
+
+header {
+    background-color: #511b40;
+    color: #c18747;
     padding: 20px;
     text-align: center;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
+}
+
+nav ul li a {
+    color: #c18747;
     text-decoration: none;
     font-size: 1.2em;
-  }
-  
-  section {
+}
+
+section {
     padding: 40px 20px;
     margin: 20px 0;
-  }
-  
-  section h2 {
-    color: #333;
+}
+
+section h2 {
+    color: #511b40;
     font-size: 2em;
     margin-bottom: 10px;
-  }
-  
-  section p {
+}
+
+section p {
     font-size: 1.1em;
     margin-bottom: 10px;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
@@ -63,13 +63,34 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0;
-  }
-  
-  .header-image {
+}
+
+.header-image {
     width: 150px;
     border-radius: 50%;
-  }
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c18747; 
+    color: #511b40;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #b35700;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
